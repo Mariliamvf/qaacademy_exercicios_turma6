@@ -2,9 +2,23 @@ package exercicios_easy;
 
 public class Exec6 {
 
-    public int aprovadoReprovado ( int nota1, int nota2){
+    public String  calcularMedia ( int nota1, int nota2){
+        int media;
 
+    media = (nota1+nota2) /2;
+    if (media >5){
+        return "Aprovado";
     }
+     if ( media <5)   {
+         return "Reprovado";
+     }
+     if (media ==5){
+         return "Exame";
+
+     }
+     return "Null";
+    }
+
 
 
 
