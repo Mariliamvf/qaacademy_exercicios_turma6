@@ -19,12 +19,11 @@ public class Execucao {
 //  //  }
 
 
-//    public static void main(String [] args ) {
-//        Exec2 exec2 = new Exec2();
+//      public static void main(String [] args ) {
+//       Exec2 exec2 = new Exec2();
 //        System.out.println(exec2.exibirPalavra("Batismo"));
-//
-//    }
 
+//    }
 
 //    public static void main(String[] args) {
 //        Exec3 exec3 = new Exec3();
@@ -67,8 +66,8 @@ public class Execucao {
 //        Exec10 exec10 = new Exec10();
 //        System.out.println(exec10.calcularInvestimento(2000));
 
-          Exec11 exec11 = new Exec11();
-        System.out.println(exec11.somaMais2(10));
+//          Exec11 exec11 = new Exec11();
+//        System.out.println(exec11.somaMais2(10));
 
 
     }

@@ -3,7 +3,7 @@ package exercicios_easy;
 import javax.swing.*;
 
 public class Exec4 {
-    public static int lerNumeroInteiroArmazenarCalculareExibir (int num ) {
+    public int lerNumeroInteiroArmazenarCalculareExibir (int num ) {
         return num * 2;
     }
     }
