@@ -56,12 +56,19 @@ public class Execucao {
 
 
 
-       double salario = Double.parseDouble(JOptionPane.showInputDialog("Por favor,digite um salario"));
-       Exec8 exec8 = new Exec8();
-       System.out.println("O Imposto de Renda sera : " + Exec8.calcularImpostoDeRenda(salario));
-        double impostoDeRenda = Exec8.calcularImpostoDeRenda(salario);
-        System.out.println("O Salario Liquido será : " + Exec8.calcularSalarioLiquido(salario,impostoDeRenda));
+//       double salario = Double.parseDouble(JOptionPane.showInputDialog("Por favor,digite um salario"));
+//       Exec8 exec8 = new Exec8();
+//       System.out.println("O Imposto de Renda sera : " + Exec8.calcularImpostoDeRenda(salario));
+//        double impostoDeRenda = Exec8.calcularImpostoDeRenda(salario);
+//        System.out.println("O Salario Liquido será : " + Exec8.calcularSalarioLiquido(salario,impostoDeRenda));
+//
 
+
+//        Exec10 exec10 = new Exec10();
+//        System.out.println(exec10.calcularInvestimento(2000));
+
+          Exec11 exec11 = new Exec11();
+        System.out.println(exec11.somaMais2(10));
 
 
     }
